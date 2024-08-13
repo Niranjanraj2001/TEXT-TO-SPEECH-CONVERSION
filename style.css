@@ -1,0 +1,68 @@
+body{
+     
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%); */ 
+background-color: aqua;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+}
+button:hover{
+    color: black;
+    font: 20px;
+    background-color: violet;
+    cursor: pointer;
+    font-style: italic;
+
+}
+h1{
+    color: darkslateblue;
+}
+
+.box{
+    height: 50vh;
+    width: 60vw;
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-left: 320px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(188,188,228,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+#textToSpeak{
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#btn{
+    height: 40px;
+    width: 90px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #021e4d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px powderblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn:active{
+    box-shadow: 0 5px #460274;
+    transform: translateY(4px);
+}
+
+
+
